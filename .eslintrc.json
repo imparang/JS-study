@@ -1,0 +1,14 @@
+{
+  "env": {
+    "browser": true,  // 브라우저에서 사용할 때 (window 같이)를 사용하면 에러가 안남
+    "node": true  // require(), module.exports ... 와 같은 전역 객체 사용할 때를 대비
+  },
+  "extends": [
+    "eslint:recommended"
+  ],
+  "parser": "@babel/eslint-parser",
+  "rules": {
+    "semi": ["error", "never"],
+    "quotes": ["error", "single"]
+  }
+}
