@@ -1,0 +1,8 @@
+$size: 100px;
+$color: orange;
+.box {
+  width: $size;
+  height: $size;
+  background-color: rgba($color, 0.5);
+  display: flex;
+}
